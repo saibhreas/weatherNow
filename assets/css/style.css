@@ -2,7 +2,6 @@ body {
   font-family:'PT Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  background-image: url(./assets/img/AC1.jpg);
 }
 
 .card {
@@ -33,7 +32,7 @@ body {
 }
 
 .jumbotron-weather {
-  background-image: url(./assets/img/skimmingBuf1);
+  background-image: url(../img/skimmingBuf1);
   background-size: cover;
   
 }
@@ -41,3 +40,6 @@ body {
 
 }
 
+.main{
+  background-image:url(./assets/img) ;
+}
