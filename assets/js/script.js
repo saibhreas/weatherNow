@@ -46,7 +46,7 @@ $(document).ready(function () {
         $("#current-city").text(city)
 
         console.log(city)
-        var currentUrlApi = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+        var currentUrlApi = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
         console.log("current day communication succeed: ", currentUrlApi)
         $.ajax({
             url: currentUrlApi,
