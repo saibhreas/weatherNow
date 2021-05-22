@@ -132,4 +132,4 @@ $(document).ready(function () {
 
     setInterval(displayTime, 1000);
     searchCityBtnEl.on("click", getCurrentWeather);
-});
+});//comments to verify github push
