@@ -21,18 +21,22 @@ body {
 .card-search{
   border:#4bacb8;
 }
+.jumbotron h1{
+  text-shadow: 2px 2px #151418;
+}
 
 .jumbotron {
   text-align: center;
   background-color:  #5b6f9b;
-  color: rgb(245, 241, 241);
+  color: rgb(49, 58, 70);
   border-radius: 5;
   border-bottom: 5px solid rgb(63, 6, 219);
   
 }
 
 .jumbotron-weather {
-  background-image: url(../img/skimmingBuf1.jpg);
+  background-image: url(../img/AC3.jpg);
+  max-width: 100%;
   background-size: cover;
   
 }
