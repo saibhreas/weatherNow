@@ -42,8 +42,9 @@ $(document).ready(function () {
     function getCurrentWeather(event) {
         event.preventDefault();
         var city = $("#city-name").val();
-
+        $("#chosen-city").text(city);
         $("#current-city").text(city)
+        console.log("chosen-city");
 
         console.log(city)
         var currentUrlApi = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
